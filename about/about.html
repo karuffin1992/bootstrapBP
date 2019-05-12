@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./../css/about.css">
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Title</title>
+  </head>
+  <body onLoad="">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Projekt: Alpha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBar">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="./../index.html">Home</a>
+            <a class="nav-item nav-link active" href="./about.html">About</a>
+            <a class="nav-item nav-link" href="./../products/products.html">Products</a>
+            <a class="nav-item nav-link" href="./../contact/contact.html">Contact</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="./../login/login.html">Register</a>
+            <a class="nav-item nav-link" href="./../login/login.html">Log In</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="container">
+      <div>
+        <h1 class="text-center text-uppercase">About</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias architecto, sint? Rerum nihil minima tempora reprehenderit numquam aspernatur veniam molestiae molestias neque, error, quis possimus quasi. Quaerat eveniet pariatur molestiae.</p>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <section class="container showcase">
+      <div class="row">
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <div class="container">
+        <!-- Top footer row for contact info -->
+        <div class="row">
+          <!-- Contact Info -->
+          <div class="col-6">
+            <div class="py-5 px-3">
+              <a href="https://www.projektalpha.com">
+                <img class="logo" src="" alt="Brand image placeholder">
+              </a>
+              <ul class="contacts">
+                <li><i class="fa fa-map-marker"></i>100 Main St.<br>Who, Whoville 77777<br>&nbsp;</li>
+                <li><i class="fa fa-phone"></i><a href="tel: 1111111111" title="">(111) 111-1111</a></li>
+                <li><i class="fa fa-envelope"></i><a href="mailto: projektalpha@gmail.com" title="">ProjektAlpha@gmail.com</a></li>
+              </ul>
+              <div class="socials">FOLLOW US:
+                <a href="https://www.facebook.com/" target="_blank" title="" style="background-color: #6282c1">
+                  <i class="fab fa-facebook-f"></i>
+			          </a>
+                <a href="http://www.yelp.com/" target="_blank" title="" style="background-color: #be0000">
+                  <i class="fab fa-yelp"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" title="" style="background-color: #dc483c">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div class="footer-border pt-4 mt-4"></div>
+            </div>
+          </div>
+          <!-- Email form -->
+          <div class="col-6">
+            <div class="text-white py-5 px-3">
+              <form method="post" enctype="multipart/form-data" target="" id="emailForm" action="/#">
+                <div class="form-heading-text">
+                  <h3 class="mb-4">Contact Us</h3>
+                  <span class="form-span-text">We're happy to talk with you about any questions or concerns.  Shoot us an email or give us a call at  <a href="tel:1111111111" title="">(111) 111-1111</a>.</span>
+                </div>
+                <div class="formList-wrapper">
+                  <ul id="formList" class="formList">
+                    <li id="formName" class="width-half">
+                      <div>
+                        <input type="text" value="" class="medium" tabindex="1" placeholder="Name">
+                      </div>
+                    </li>
+                    <li id="formPhone" class="width-half">
+                      <div>
+                        <input type="text" value="" class="medium" tabindex="2" placeholder="Phone Number">
+                      </div>
+                    </li>
+                    <li id="formEmail" class="formEmail">
+                      <div>
+                        <input type="text" value="" class="medium" tabindex="3" placeholder="Email Address">
+                      </div>
+                    </li>
+                    <li id="formText" class="formText">
+                      <div class="input-container input-container-textarea">
+                        <textarea class="textarea medium" tabindex="4" placeholder="How can we help you?" rows="10" cols="50"></textarea>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="formSubmit">
+                  <button type="submit" id="formSubmit" class="btn btn-primary btn-lg" tabindex="5" onclick="if(window['f_submitting_1']){ return false; } window['f_submitting_1']=true;">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer bottom for copyright info -->
+      <div class="footer-bottom bg-light">
+        <div class="text-center">Projekt: Alpha Copyright &copy; 2018</div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./../js/about.js"></script>
+  </body>
+</html>
