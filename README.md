@@ -1,2 +1,3 @@
-* $40.00/hr
-** Total Hours: 1
+Bootstrap BP
+
+Created landing page with bootstrap framework and ScrollReveal JS library.
